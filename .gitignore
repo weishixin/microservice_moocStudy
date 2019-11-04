@@ -1,0 +1,62 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### python ###
+venv/
+
+*.target/
+*.lib/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+#java
+*.class
+
+#package file
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+#Intellij idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#maven ignore
+target/
+build/
+
+#eclipse ignore
+.settings/
+.classpatch
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+# temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
